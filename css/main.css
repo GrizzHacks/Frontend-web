@@ -180,13 +180,13 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .logo {
  position: absolute;
-    top: 0; bottom:0; left: 0; right:0;
+    top: 150px; bottom: 0; left: 500px; right:0;
     margin: auto;
     margin: 0 auto;
 }
 .logo {
   position: absolute;
-    height: 120px;
+    height: 140px;
     margin-left: auto;
     margin-right: auto;
   transform: scale(1);
@@ -288,24 +288,19 @@ header p:before {
   }
 }
 @media screen and (min-width: 768px) {
-  header p {
+  header span {
     width: 70%;
   }
-}
-@media screen and (min-width: 1024px) {
-  header p {
-    width: 60%;
-  }
-}
-header p span {
-  position: relative;
-  display: block;
-  margin: 20px 0 0;
-  font-size: 20px;
+.subtext {
+    color: black;
+      position: absolute; top: 100px; bottom: 20; right: 0; width: 500px; 
+    
+     font-size: 25px;
 font-weight: 900;
+    text-align: right;
 }
-header .date {
-  position: absolute;
+    .date {
+  position: relative;
   bottom: 20px;
   margin: 0;
   padding: 5px 15px;
@@ -315,10 +310,64 @@ header .date {
   font-size: 12px;
   font-weight: 400;
 }
-header .date i {
+.date i {
   margin-right: 5px;
   font-size: 14px;
 }
+
+}
+@media screen and (min-width: 1024px) {
+  header span {
+    width: 60%;
+  }
+.subtext {
+      position: absolute; top: 200px; bottom: 10px; right: 0; width: 300px; 
+    padding-left: 20px;
+    padding-right: 20px;
+     font-size: 25px;
+font-weight: 900;
+    text-align: right;
+}
+    .date {
+  position: relative;
+  bottom: 20px;
+  margin: 0;
+  padding: 5px 15px;
+  border: 2px solid black;
+  border-radius: 4px;
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+}
+.date i {
+  margin-right: 5px;
+  font-size: 14px;
+}
+}
+header span {
+  position: absolute;
+  display: block;
+    margin: 20% ;
+  font-size: 15px;
+font-weight: 600;
+    text-align: center;
+}
+
+
+.subtext2 {
+  position: absolute;
+  display: block;
+    margin: 300px 400px 20px ;
+  font-size: 10px;
+font-weight: 200;
+    text-align: center;
+}
+header p {
+  position: absolute;
+  display: block;
+font-weight: 600;
+}
+
 
 /* HERE ENDS THE MAGIC */
 header .container {
@@ -1539,11 +1588,9 @@ margin: 20px 0 20px;  padding: 10px;
   height: auto;
 }
 
-
-
-
-
-
+.comments {
+  padding-top: 0;
+}
 .comments .toggle3 {
   position: relative;
   display: block;
@@ -1590,10 +1637,493 @@ margin: 20px 0 20px;  padding: 10px;
 .comments #toggle3:checked + .toggle3 .indicator {
   transform: rotate(45deg);
 }
-.comments #toggle3
-:checked ~ .wrapper {
+.comments #toggle3:checked ~ .wrapper {
   height: auto;
 }
+
+.comments {
+  padding-top: 0;
+}
+.comments .toggle4 {
+  position: relative;
+  display: block;
+  width: 100%;
+margin: 20px 0 20px;  padding: 10px;
+  background-color: #999999;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.comments .toggle4 .indicator {
+  position: relative;
+  top: 4px;
+  width: 15px;
+  height: 16px;
+  line-height: 1.75;
+  transition: transform 250ms ease;
+  float: right;
+}
+.comments .toggle4 .indicator:before, .comments .toggle4 .indicator:after {
+  position: absolute;
+  content: '';
+}
+.comments .toggle4 .indicator:before {
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: translateY(-1px);
+}
+.comments .toggle4 .indicator:after {
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  transform: translateX(-1px);
+}
+.comments #toggle4 {
+  display: none;
+}
+.comments #toggle4:checked + .toggle4 .indicator {
+  transform: rotate(45deg);
+}
+.comments #toggle4:checked ~ .wrapper {
+  height: auto;
+}
+
+
+.comments {
+  padding-top: 0;
+}
+.comments .toggle5 {
+  position: relative;
+  display: block;
+  width: 100%;
+margin: 20px 0 20px;  padding: 10px;
+  background-color: #999999;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.comments .toggle5 .indicator {
+  position: relative;
+  top: 4px;
+  width: 15px;
+  height: 16px;
+  line-height: 1.75;
+  transition: transform 250ms ease;
+  float: right;
+}
+.comments .toggle5 .indicator:before, .comments .toggle5 .indicator:after {
+  position: absolute;
+  content: '';
+}
+.comments .toggle5 .indicator:before {
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: translateY(-1px);
+}
+.comments .toggle5 .indicator:after {
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  transform: translateX(-1px);
+}
+.comments #toggle5 {
+  display: none;
+}
+.comments #toggle5:checked + .toggle5 .indicator {
+  transform: rotate(45deg);
+}
+.comments #toggle5:checked ~ .wrapper {
+  height: auto;
+}
+
+.comments {
+  padding-top: 0;
+}
+.comments .toggle6 {
+  position: relative;
+  display: block;
+  width: 100%;
+margin: 20px 0 20px;  padding: 10px;
+  background-color: #999999;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.comments .toggle6 .indicator {
+  position: relative;
+  top: 4px;
+  width: 15px;
+  height: 16px;
+  line-height: 1.75;
+  transition: transform 250ms ease;
+  float: right;
+}
+.comments .toggle6 .indicator:before, .comments .toggle6 .indicator:after {
+  position: absolute;
+  content: '';
+}
+.comments .toggle6 .indicator:before {
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: translateY(-1px);
+}
+.comments .toggle6 .indicator:after {
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  transform: translateX(-1px);
+}
+.comments #toggle6 {
+  display: none;
+}
+.comments #toggle6:checked + .toggle6 .indicator {
+  transform: rotate(45deg);
+}
+.comments #toggle6:checked ~ .wrapper {
+  height: auto;
+}
+
+.comments {
+  padding-top: 0;
+}
+.comments .toggle7 {
+  position: relative;
+  display: block;
+  width: 100%;
+margin: 20px 0 20px;  padding: 10px;
+  background-color: #999999;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.comments .toggle7 .indicator {
+  position: relative;
+  top: 4px;
+  width: 15px;
+  height: 16px;
+  line-height: 1.75;
+  transition: transform 250ms ease;
+  float: right;
+}
+.comments .toggle7 .indicator:before, .comments .toggle7 .indicator:after {
+  position: absolute;
+  content: '';
+}
+.comments .toggle7 .indicator:before {
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: translateY(-1px);
+}
+.comments .toggle7 .indicator:after {
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  transform: translateX(-1px);
+}
+.comments #toggle7 {
+  display: none;
+}
+.comments #toggle7:checked + .toggle7 .indicator {
+  transform: rotate(45deg);
+}
+.comments #toggle7:checked ~ .wrapper {
+  height: auto;
+}
+
+
+.comments {
+  padding-top: 0;
+}
+.comments .toggle8 {
+  position: relative;
+  display: block;
+  width: 100%;
+margin: 20px 0 20px;  padding: 10px;
+  background-color: #999999;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.comments .toggle8 .indicator {
+  position: relative;
+  top: 4px;
+  width: 15px;
+  height: 16px;
+  line-height: 1.75;
+  transition: transform 250ms ease;
+  float: right;
+}
+.comments .toggle8 .indicator:before, .comments .toggle8 .indicator:after {
+  position: absolute;
+  content: '';
+}
+.comments .toggle8 .indicator:before {
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: translateY(-1px);
+}
+.comments .toggle8 .indicator:after {
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  transform: translateX(-1px);
+}
+.comments #toggle8 {
+  display: none;
+}
+.comments #toggle8:checked + .toggle8 .indicator {
+  transform: rotate(45deg);
+}
+.comments #toggle8:checked ~ .wrapper {
+  height: auto;
+}
+
+.comments {
+  padding-top: 0;
+}
+.comments .toggle9 {
+  position: relative;
+  display: block;
+  width: 100%;
+margin: 20px 0 20px;  padding: 10px;
+  background-color: #999999;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.comments .toggle9 .indicator {
+  position: relative;
+  top: 4px;
+  width: 15px;
+  height: 16px;
+  line-height: 1.75;
+  transition: transform 250ms ease;
+  float: right;
+}
+.comments .toggle9 .indicator:before, .comments .toggle9 .indicator:after {
+  position: absolute;
+  content: '';
+}
+.comments .toggle9 .indicator:before {
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: translateY(-1px);
+}
+.comments .toggle9 .indicator:after {
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  transform: translateX(-1px);
+}
+.comments #toggle9 {
+  display: none;
+}
+.comments #toggle9:checked + .toggle9 .indicator {
+  transform: rotate(45deg);
+}
+.comments #toggle9:checked ~ .wrapper {
+  height: auto;
+}
+
+
+.comments {
+  padding-top: 0;
+}
+.comments .toggle10 {
+  position: relative;
+  display: block;
+  width: 100%;
+margin: 20px 0 20px;  padding: 10px;
+  background-color: #999999;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.comments .toggle10 .indicator {
+  position: relative;
+  top: 4px;
+  width: 15px;
+  height: 16px;
+  line-height: 1.75;
+  transition: transform 250ms ease;
+  float: right;
+}
+.comments .toggle10 .indicator:before, .comments .toggle10 .indicator:after {
+  position: absolute;
+  content: '';
+}
+.comments .toggle10 .indicator:before {
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: translateY(-1px);
+}
+.comments .toggle10 .indicator:after {
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  transform: translateX(-1px);
+}
+.comments #toggle10 {
+  display: none;
+}
+.comments #toggle10:checked + .toggle10 .indicator {
+  transform: rotate(45deg);
+}
+.comments #toggle10:checked ~ .wrapper {
+  height: auto;
+}
+
+.comments {
+  padding-top: 0;
+}
+.comments .toggle11 {
+  position: relative;
+  display: block;
+  width: 100%;
+margin: 20px 0 20px;  padding: 10px;
+  background-color: #999999;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.comments .toggle11 .indicator {
+  position: relative;
+  top: 4px;
+  width: 15px;
+  height: 16px;
+  line-height: 1.75;
+  transition: transform 250ms ease;
+  float: right;
+}
+.comments .toggle11 .indicator:before, .comments .toggle11 .indicator:after {
+  position: absolute;
+  content: '';
+}
+.comments .toggle11 .indicator:before {
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: translateY(-1px);
+}
+.comments .toggle11 .indicator:after {
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  transform: translateX(-1px);
+}
+.comments #toggle11 {
+  display: none;
+}
+.comments #toggle11:checked + .toggle11 .indicator {
+  transform: rotate(45deg);
+}
+.comments #toggle11:checked ~ .wrapper {
+  height: auto;
+}
+
+.comments {
+  padding-top: 0;
+}
+.comments .toggle12 {
+  position: relative;
+  display: block;
+  width: 100%;
+margin: 20px 0 20px;  padding: 10px;
+  background-color: #999999;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.comments .toggle12 .indicator {
+  position: relative;
+  top: 4px;
+  width: 15px;
+  height: 16px;
+  line-height: 1.75;
+  transition: transform 250ms ease;
+  float: right;
+}
+.comments .toggle12 .indicator:before, .comments .toggle12 .indicator:after {
+  position: absolute;
+  content: '';
+}
+.comments .toggle12 .indicator:before {
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: translateY(-1px);
+}
+.comments .toggle12 .indicator:after {
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  transform: translateX(-1px);
+}
+.comments #toggle12 {
+  display: none;
+}
+.comments #toggle12:checked + .toggle12 .indicator {
+  transform: rotate(45deg);
+}
+.comments #toggle12:checked ~ .wrapper {
+  height: auto;
+}
+
+
+
+
 
 svg{
   width: 70%;
