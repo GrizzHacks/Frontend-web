@@ -287,14 +287,23 @@ header p:before {
     transform: translateY(-50%, 0%);
   }
 }
+@media screen and (min-width: 360px) {
+    .subtext {
+        color: black;
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 900;
+        text-align: center;
+    }
+}
 @media screen and (min-width: 768px) {
   header span {
     width: 70%;
   }
 .subtext {
     color: black;
-      position: absolute; top: 100px; bottom: 20; right: 0; width: 500px; 
-    
+      position: absolute; top: 100px; bottom: 20; right: 0; width: 500px;
+
      font-size: 25px;
 font-weight: 900;
     text-align: right;
@@ -320,14 +329,14 @@ font-weight: 900;
   header span {
     width: 60%;
   }
-.subtext {
-      position: absolute; top: 200px; bottom: 10px; right: 0; width: 300px; 
-    padding-left: 20px;
-    padding-right: 20px;
+  .subtext {
+     position: absolute; top: 200px; bottom: 10px; right: 0; width: 300px;
+     padding-left: 20px;
+     padding-right: 20px;
      font-size: 25px;
-font-weight: 900;
-    text-align: right;
-}
+     font-weight: 900;
+     text-align: right;
+   }
     .date {
   position: relative;
   bottom: 20px;
@@ -516,15 +525,16 @@ header .container {
 }
 
 #tab-2, #tab-2 + span {
-	left: 20%;
+
+	left: 25%;
 }
 
 #tab-3, #tab-3 + span {
-	left: 40%;
+	left: 50%;
 }
 
 #tab-4, #tab-4 + span {
-	left: 60%;
+	left: 75%;
 }
 
 #tab-5, #tab-5 + span {
@@ -585,19 +595,19 @@ header .container {
 }
 
 #tab-2:checked ~ .line {
-	left: 20%;
+	left: 25%;
 }
 
 #tab-3:checked ~ .line {
-	left: 40%;
+	left: 50%;
 }
 
 #tab-4:checked ~ .line {
-	left: 60%;
+	left: 75%;
 }
 
 #tab-5:checked ~ .line {
-	left: 80%;
+	left: 100%;
 }
 
 
