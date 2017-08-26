@@ -291,7 +291,8 @@ header p:before {
     .subtext {
         color: black;
         margin-top: 20px;
-        font-size: 15px;
+	   margin-bottom: 25px;
+	   font-size: 15px;
         font-weight: 900;
         text-align: center;
     }
@@ -356,7 +357,10 @@ font-weight: 900;
 header span {
   position: absolute;
   display: block;
-    margin: 20% ;
+    margin-top: 20%;
+    margin-right: 28%;
+    margin-bottom: 35%;
+    margin-left: 27.75%;
   font-size: 15px;
 font-weight: 600;
     text-align: center;
