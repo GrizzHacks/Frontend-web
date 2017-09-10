@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -369,7 +369,10 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+  margin-left: auto;
 }
 
 .img-rounded {

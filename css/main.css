@@ -1156,9 +1156,9 @@ form label {
   opacity: 1;
 }
 
-.heading {
-  margin-bottom: 5em;
-}
+//.heading {
+ // margin-bottom: 5em;
+//}
 .heading.heading-sm {
   margin-bottom: 2em;
 }
