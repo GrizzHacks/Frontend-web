@@ -220,3 +220,16 @@ notthis.toggleClass('active').next('.faqanswer').slideToggle(300);
  $(this).toggleClass('active').next().slideToggle("fast");
 $(this).children('i').toggleClass('icon-plus icon-minus');
 });
+
+
+$(document).ready(function() {
+    $('#faqs').click(function() {
+        $("#tab-2").prop("checked", true);
+        $('html, body').animate({
+            scrollTop: $("#tab-2").offset().top
+        }, 500);
+
+	});
+});
+
+
