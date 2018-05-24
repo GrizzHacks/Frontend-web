@@ -17,7 +17,7 @@ header{
     padding-top: 50px;
     padding-bottom: 10px;
 }
- 
+
 .grizzhacks-loader {
   position: fixed;
   left: 0px;
@@ -30,11 +30,11 @@ header{
 
 .navbar-inverse{
   background: white !important;
-  border-bottom:4px solid #99ccff !important;
+  border-bottom:4px solid #7dc143 !important;
 }
 
 .navbar-brand{
-  
+
   text-transform:uppercase;
   color:black!important;
   letter-spacing:2px;
@@ -117,13 +117,13 @@ header{
 }
 
 a {
-  color: #90D8F7;
+  color: #7dc143;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #90D8F7;
+  color: #7dc143;
   outline: none;
   text-decoration: none;
 }
@@ -141,17 +141,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #90D8F7;
+  background: #7dc143;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #90D8F7;
+  background: #7dc143;
 }
 
 ::selection {
   color: #fff;
-  background: #90D8F7;
+  background: #7dc143;
 }
 
 
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6, figure {
     min-height: 12%;
     position:absolute;
     z-index: 2;
-    width: 100%;    
+    width: 100%;
 }
 
 
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .subscribe {
-    
+
   position: relative;
   display: inline-block;
     padding-top: 5%;
@@ -406,7 +406,7 @@ header .container {
   position: relative;
 
 
-    
+
 }
 
 
@@ -415,7 +415,7 @@ header .container {
   height: 1100px;
   background-size: cover;
     background: url(../img/coverpic2.jpg) center no-repeat #fff;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   width: 100%;
 }
 
@@ -521,7 +521,7 @@ header .container {
 
 .tabs > input:checked + span,
 .tabs > input:hover + span {
-	color: lightblue;
+	color: green;
 }
 
 #tab-1, #tab-1 + span {
@@ -588,6 +588,7 @@ header .container {
 
 .effect-3 .line{
 	background: #3498DB;
+  background: green;
 	width: 20%;
 	height: 4px;
 	position: absolute;
@@ -739,7 +740,7 @@ form label {
 #counter .display-tc .btn,
 .cover .display-tc .btn {
   padding: 15px 30px;
-  background: #90D8F7 !important;
+  background: #7dc143 !important;
   color: #fff;
   border: none !important;
   font-size: 18px;
@@ -760,7 +761,7 @@ form label {
 #counter .counter {
   font-size: 50px;
   margin-bottom: 10px;
-  color: 90D8F7;
+  color: 7dc143;
   font-weight: 100;
   display: block;
 }
@@ -1393,12 +1394,12 @@ form label {
 	display: none;
 	width: 590px;
 	background: #e5e5e5;
-	padding: 12px 20px 0 30px;	
+	padding: 12px 20px 0 30px;
 }
 
 .faqanswer p {
 	font-size: 13px;
-	line-height: 17px;	
+	line-height: 17px;
 }
 
 
@@ -1527,7 +1528,7 @@ a.active {
   width: 100%;
   height: 65px;
   margin: 6px auto;
- 
+
   background-position: center center;
   background-size: cover;
   background-color: darkgray;
@@ -2145,10 +2146,10 @@ margin: 20px 0 20px;  padding: 10px;
 
 svg{
   width: 70%;
-    
+
     height: 90%;
-    
-  
+
+
 }
 line{
   animation: dash 10s linear forwards;
@@ -2194,7 +2195,7 @@ button:before,button:after{
   right:0;
   height:1px;
   width:0;
-  background: lightblue;
+  background: green;
   transition:400ms ease all;
 }
 button:after{
