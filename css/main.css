@@ -1390,6 +1390,16 @@ form label {
 .js .animate-box {
   opacity: 0;
 }
+
+.center-logo {
+
+margin-top: 50px;
+  /* display: flex; */
+  /* align-content: center; */
+  /* justify-content: center;
+
+}
+
 .faqanswer {
 	display: none;
 	width: 590px;
