@@ -30,7 +30,7 @@ header{
 
 .navbar-inverse{
   background: white !important;
-  border-bottom:4px solid #662D91 !important;
+  border-bottom:4px solid #3A1964 !important;
 }
 
 .navbar-brand{
@@ -117,13 +117,13 @@ header{
 }
 
 a {
-  color: #7dc143;
+  color: #3A1965;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #7dc143;
+  color: #3A1965;
   outline: none;
   text-decoration: none;
 }
@@ -141,17 +141,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #662D91;
+  background: #3A1964;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #662D91;
+  background: #3A1964;
 }
 
 ::selection {
   color: #fff;
-  background: #662D91;
+  background: #3A1964;
 }
 
 
@@ -740,7 +740,7 @@ form label {
 #counter .display-tc .btn,
 .cover .display-tc .btn {
   padding: 15px 30px;
-  background: #662D91 !important;
+  background: #3A1964 !important;
   color: #fff;
   border: none !important;
   font-size: 18px;
@@ -761,7 +761,7 @@ form label {
 #counter .counter {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #662D91;
+  color: #3A1964;
   font-weight: 100;
   display: block;
 }
@@ -1190,7 +1190,7 @@ form label {
 #footer .footer-links {
   padding: 0;
   margin: 0;
-  color: #662D91;
+  color: #3A1964;
 }
 #footer .footer-links li {
   padding: 0;
@@ -1328,7 +1328,7 @@ form label {
   width: 50px;
   height: 50px;
   display: table;
-  background: #662D91;
+  background: #3A1964;
   color: #fff;
   text-align: center;
   -webkit-border-radius: 4px;
@@ -2185,9 +2185,10 @@ line{
         margin-bottom: 0px;
     }
 }
+
 button{
   background: black;
-  color:#fff;
+  color: white !important;
   border:none;
   position:relative;
   height:50px;
@@ -2197,6 +2198,8 @@ button{
   transition:800ms ease all;
   outline:none;
 }
+
+
 button:hover{
   background:#fff;
   color:lightblue;
