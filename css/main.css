@@ -2201,8 +2201,8 @@ button{
 
 
 button:hover{
-  background:#fff;
-  color:lightblue;
+  background:#3A1964;
+  color:purple;
 }
 button:before,button:after{
   content:'';
@@ -2211,7 +2211,7 @@ button:before,button:after{
   right:0;
   height:1px;
   width:0;
-  background: lightblue;
+  background: #3A1964;
   transition:400ms ease all;
 }
 button:after{
