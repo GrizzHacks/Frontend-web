@@ -2154,8 +2154,19 @@ margin: 20px 0 20px;  padding: 10px;
 }
 
 
+.move-dyna-lower{
+  margin-top: 95px;
+}
 
+.move-msu-lower{
+  margin-top: 55px;
+}
 
+.center-this{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 svg{
   width: 70%;
